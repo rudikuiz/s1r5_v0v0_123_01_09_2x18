@@ -104,6 +104,7 @@
     <string name="lunas">Lunas</string>
     <string name="blunas">Belum Lunas</string>
     <string name="hari">Hari</string>
+    <string name="tipe">Tipe</string>
     <string-array name="identitas">
         <item>--Pilih Identitas--</item>
         <item>KTP</item>

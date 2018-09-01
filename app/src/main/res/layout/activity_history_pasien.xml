@@ -73,11 +73,11 @@
                             android:background="@android:color/darker_gray" />
 
                         <TextView
-                            android:id="@+id/etPoli"
+                            android:id="@+id/etTipe"
                             android:layout_width="150dp"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
-                            android:text="@string/poli2"/>
+                            android:text="@string/tipe"/>
 
                         <View
                             android:layout_width="1dp"

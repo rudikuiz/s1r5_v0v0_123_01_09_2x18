@@ -38,7 +38,7 @@ public class AdapterHistory extends RecyclerView.Adapter<AdapterHistory.HolderHo
         int i = position +1;
         holder.number.setText(String.valueOf(i));
         holder.etTgl.setText(arrayList.get(position).getTgl());
-        holder.etPoli.setText(arrayList.get(position).getPoli());
+        holder.etTipe.setText(arrayList.get(position).getPoli());
         holder.etBiaya.setText(arrayList.get(position).getBiaya());
 
     }
@@ -53,8 +53,8 @@ public class AdapterHistory extends RecyclerView.Adapter<AdapterHistory.HolderHo
         TextView number;
         @BindView(R.id.etTgl)
         TextView etTgl;
-        @BindView(R.id.etPoli)
-        TextView etPoli;
+        @BindView(R.id.etTipe)
+        TextView etTipe;
         @BindView(R.id.etBiaya)
         TextView etBiaya;
 

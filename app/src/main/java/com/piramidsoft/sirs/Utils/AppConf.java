@@ -16,6 +16,7 @@ public class AppConf {
     public static final String URL_ANTRIAN = URLHTTP + "Registrasi_poli_c/antrian_poli";
     public static final String URL_BILLING_B_LUNAS = URLHTTP + "billing_c/billing_b_lunas";
     public static final String URL_BILLING_LUNAS = URLHTTP + "billing_c/billing_lunas";
+    public static final String URL_HISTORY_CHECKUP = URLHTTP + "history_c/checkup";
 
 
     public static final String httpTag = "KillHttp";

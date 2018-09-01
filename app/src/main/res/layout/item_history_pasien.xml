@@ -10,9 +10,14 @@
         android:background="@android:color/white"
         android:orientation="horizontal">
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
         <TextView
             android:id="@+id/number"
-            android:layout_width="50dp"
+            android:layout_width="49dp"
             android:layout_height="wrap_content"
             android:padding="10dp" />
 
@@ -33,7 +38,7 @@
             android:background="@android:color/darker_gray" />
 
         <TextView
-            android:id="@+id/etPoli"
+            android:id="@+id/etTipe"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:padding="10dp" />
