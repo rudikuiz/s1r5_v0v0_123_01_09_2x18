@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Rumah Sakit</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="create_account">Tambah Registrasi</string>
+    <string name="forgot_password"> | Forgot Password?</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="login">Login</string>
+    <string name="join">Join</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">08x-xxx-xxx-xxx</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_main22">Main22Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="dokter_pribadi">Dokter Pribadi</string>
+    <string name="checkup_history_patient">Checkup History\nPasien</string>
+    <string name="pill_reminder">Pill Reminder</string>
+    <string name="checkup_reminder_patient">Checkup Reminder Patient</string>
+    <string name="appointment">Appointment</string>
+    <string name="bill_account">Bill Account</string>
+    <string name="bmi">BMI</string>
+    <string name="menu">Menu</string>
+    <string name="akun_saya">Akun Saya</string>
+    <string name="help">Help</string>
+    <string name="contact">Contact</string>
+    <string name="syarat_dan_ketentuan">Syarat dan Ketentuan</string>
+    <string name="log_out">Log Out</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="call_of_ambulance">Call of Ambulance</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="dokter_yang_memeriksa">Dokter yang memeriksa</string>
+    <string name="add_pill_reminder">Add Pill Reminder</string>
+    <string name="nama_obat">Nama Obat</string>
+    <string name="tanggal_minum_obat">Tanggal Minum Obat</string>
+    <string name="jam_minum_obat">Jam Minum Obat</string>
+    <string name="dokter">Dokter</string>
+
+    <string name="logout">Logout</string>
+    <string name="info">Bagas Dermawan</string>
+    <string name="ths">This Month : April 2018</string>
+    <string name="yourbus">Selamat Datang!</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="topup">Top Up Page</string>
+    <string name="panic">Panic Page</string>
+    <string name="panicbutton">Panic Button!</string>
+    <string name="va">Top Up Virtual Account</string>
+    <string name="email">email</string>
+    <string name="nama">Nama Lengkap</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="usia">Usia</string>
+    <string name="keluhan">Keluhan Penyakit</string>
+    <string name="tgl_selesai_inap">Tanggal Selesai Rawat Inap</string>
+    <string name="tgl_selesai_jalan">Tanggal Rawat Jalan</string>
+    <string name="ortu">Nama Ayah atau Ibu</string>
+    <string name="nama_dokter">Nama Dokter</string>
+    <string name="disconnected">Koneksi terputus, silahkan coba kembali.</string>
+    <string name="gagal_menyambungkan">Gagal menyambungkan ke server, silahkan coba kembali</string>
+    <string name="kirim">Kirim</string>
+    <string name="sms">Verifikasi Akun</string>
+    <string name="webtopup">Top Up Activity</string>
+    <string name="profil">Profil</string>
+    <string name="home">Home</string>
+    <string name="hi">Hi,</string>
+    <string name="pendaftaranpoli">Registrasi Poli</string>
+    <string name="billing">Daftar Tagihan</string>
+    <string name="rekammedic">Rekam Medis</string>
+    <string name="emergency_patient">Pasien Darurat</string>
+    <string name="harga">Harga</string>
+    <string name="poli">Pilih Poli</string>
+    <string name="no_kk">Nomor KK</string>
+    <string name="ttl">Tempat Tanggal Lahir</string>
+    <string name="no_identitas">Nomor Identitas</string>
+    <string name="browse">Take Image</string>
+    <string name="rawatjalan">Index Rawat Jalan</string>
+    <string name="rawatinap">Index Rawat Inap</string>
+    <string name="igd">Index IGD</string>
+    <string name="asalrujukan">Asal Rujukan</string>
+    <string name="namapoli">Nama Poli</string>
+    <string name="sistembayar">Sistem Bayar</string>
+    <string name="tglpelayanan">Tanggal Pelayanan</string>
+    <string name="statusICD">Status ICD</string>
+    <string name="billinginfo">Billing / Info Pembayaran</string>
+    <string name="detailtagihan">Detail Data Tagihan / Billing</string>
+    <string name="tgldaftar">Tanggal Daftar</string>
+    <string name="layanan">Layanan</string>
+    <string name="status">Status</string>
+    <string name="pilihan">Pilihan</string>
+    <string name="checkup_history_patient2">Checkup History Pasien</string>
+    <string name="no">No</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="poli2">Poli</string>
+    <string name="registrasipoli">Registrasi Poli</string>
+    <string name="submit">Submit</string>
+    <string name="biaya">Biaya</string>
+    <string name="nomor_antrian">Nomor Antrian</string>
+    <string name="lunas">Lunas</string>
+    <string name="blunas">Belum Lunas</string>
+    <string name="hari">Hari</string>
+    <string-array name="identitas">
+        <item>--Pilih Identitas--</item>
+        <item>KTP</item>
+        <item>SIM</item>
+        <item>KARTU PELAJAR</item>
+    </string-array>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.piramidsoft.sirs.HistoryPasienActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkup_history_patient2"
+                    android:textSize="@dimen/size_large" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/abuGaris" />
+
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_tabel"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/number"
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="@string/no"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray" />
+
+                        <TextView
+                            android:id="@+id/etTgl"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="@string/tanggal"
+                           />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray" />
+
+                        <TextView
+                            android:id="@+id/etPoli"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="@string/poli2"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray" />
+
+                        <TextView
+                            android:id="@+id/etBiaya"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="@string/harga"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray" />
+
+                    </LinearLayout>
+
+
+
+                    <android.support.v4.widget.SwipeRefreshLayout
+                        android:id="@+id/Swipe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rec_history_pasien"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </android.support.v7.widget.RecyclerView>
+                    </android.support.v4.widget.SwipeRefreshLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

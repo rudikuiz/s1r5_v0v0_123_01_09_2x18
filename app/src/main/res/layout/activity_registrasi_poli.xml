@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.piramidsoft.sirs.RegistrasiPoliActivity">
+
+    <android.support.v7.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/crd_Registrasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poli"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/size_small" />
+
+                <Spinner
+                    android:id="@+id/etPoli"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/size_small" />
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_dokter"
+                android:textColorHint="@android:color/black">
+
+                <EditText
+                    android:id="@+id/etNamaDokter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="@dimen/size_med" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/harga"
+                android:textColorHint="@android:color/black">
+
+                <EditText
+                    android:id="@+id/etHarga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="@dimen/size_med" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/biaya"
+                android:textColorHint="@android:color/black">
+
+                <EditText
+                    android:id="@+id/etBiaya"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textSize="@dimen/size_med" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/crd_Antrian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nomor_antrian"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/size_xlarge"/>
+
+            <TextView
+                android:id="@+id/txAntrian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/size_xxlarge"
+                android:textColor="@android:color/black"
+                />
+
+            <ImageView
+                android:id="@+id/QRCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

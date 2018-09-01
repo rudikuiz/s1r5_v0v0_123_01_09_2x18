@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2D99A4</color>
+    <color name="colorPrimaryDark">#26828c</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorBgInput">#89565656</color>
+    <color name="colorToolbarStart">#3797C8</color>
+    <color name="colorToolbarEnd">#42B0BF</color>
+    <color name="colorGreyLine">#cecece</color>
+    <color name="colorBgChat">#e6e7e8</color>
+    <color name="colorBgGrey">#f1f1f1</color>
+    <color name="colorFabGreen">#379f37</color>
+    <color name="colorTextSetting">#8f8f8f</color>
+    <color name="excel_color">#009688</color>
+    <color name="line_edit_text">#FF4580BF</color>
+    <color name="biruTrans">#993d7383</color>
+    <color name="biruTelur">#F5FAFF</color>
+    <color name="abuGaris">#336E6E6E</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+</resources>

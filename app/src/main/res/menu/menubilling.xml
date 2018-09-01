@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_lunas"
+        android:title="@string/lunas"
+        android:icon="@drawable/ic_lunas"/>
+
+    <item
+        android:id="@+id/nav_b_lunas"
+        android:title="@string/blunas"
+        android:icon="@drawable/ic_belum_lunas"/>
+</menu>
